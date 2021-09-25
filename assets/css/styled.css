@@ -4,12 +4,12 @@ body {
 }
 
 a {
-  color: #39c795;
+  color: #e63e9b;
   text-decoration: none;
 }
 
 a:hover {
-  color: #3fca95;
+  color: #0d6efd!important;
   text-decoration: none;
 }
 
@@ -41,7 +41,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #39c795;
+  border: 6px solid #e63e9b;
   border-top-color: #e2eefd;
   border-radius: 50%;
   width: 60px;
@@ -92,7 +92,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #39c795;
+  background: #0d6efd!important;
   color: #fff;
 }
 
