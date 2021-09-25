@@ -1113,7 +1113,7 @@ section {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #39c795;
+  background-color: #e63e9b;
 }
 
 @media (min-width: 992px) {
@@ -1444,7 +1444,7 @@ section {
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #39c795;
+  color: #1969ef;
 }
 
 .faq .faq-list .collapsed .icon-show {
