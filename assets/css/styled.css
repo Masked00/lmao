@@ -634,7 +634,8 @@ section {
 }
 
 .section-title h3 span {
-  color: #39c795;
+  color: #1969ef
+;
 }
 
 .section-title p {
@@ -1368,7 +1369,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #3fca95;
+  color: #e63e9b;
 }
 
 .team .member .member-info span {
