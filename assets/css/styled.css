@@ -1163,7 +1163,7 @@ section {
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
-  height: 90px;
+
   left: 30px;
   right: 30px;
   bottom: 0;
@@ -1177,11 +1177,11 @@ section {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
-  color: #222222;
+  color: #fff;
 }
 
 .portfolio .portfolio-item .portfolio-info p {
-  color: #555555;
+  color: #fff;
   font-size: 14px;
   margin-bottom: 0;
 }
@@ -1981,7 +1981,6 @@ section {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
   background-clip: text;
   border-color: white;
 }
