@@ -835,7 +835,7 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #3d3d3d;
+  background: #1969ef;
 }
 
 .counts .count-box i {
@@ -844,7 +844,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #39c795;
+  background: #e63e9b;
   color: #fff;
   width: 56px;
   height: 56px;
@@ -860,7 +860,7 @@ section {
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #39c795;
+  color: white;
 }
 
 .counts .count-box p {
