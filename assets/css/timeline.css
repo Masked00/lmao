@@ -10,6 +10,10 @@ body {
 	overflow-x: hidden
 }
 
+.timeline {
+	background-color: black;
+}
+
 .timeline-head {
 	width: 100%;
 	text-align: center;
