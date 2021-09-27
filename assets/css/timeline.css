@@ -21,8 +21,7 @@ body {
 }
 
 .timeline-head h3 {
-	color: #081b24;
-	color: var(--winter-w2);
+
 	font-weight: 400;
 	font-size: 40px
 }
@@ -78,7 +77,8 @@ time {
 	display: flex;
 	position: absolute;
 	font-size: 20px;
-	font-weight: 400
+	font-weight: 400;
+	color:#1969ef
 }
 
 .timeline ul li:nth-child(odd) time {
@@ -95,9 +95,9 @@ time {
 	-webkit-transform: translateY(calc(-50% + 13px));
 	transform: translateY(calc(-50% + 13px));
 	padding: 24px;
-	background: #081b24;
+	background: #e63e9b;
 	background: var(--winter-w2);
-	color: #fff;
+	color: #e63e9b   ;
 	transition: all .3s ease-in-out;
 	cursor: default;
 	border-radius: 2px;
