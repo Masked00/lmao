@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Righteous&display=swap);
+body {
+	margin: 0;
+	font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: 1.5715;
+	overflow-x: hidden
+}
+
+.timeline-head {
+	width: 100%;
+	text-align: center;
+	margin: 50px 0 0
+}
+
+.timeline-head h3 {
+	color: #081b24;
+	color: var(--winter-w2);
+	font-weight: 400;
+	font-size: 40px
+}
+
+.timeline ul {
+	padding-top: 40px;
+	margin-bottom: 50px
+}
+
+.timeline li {
+	list-style-type: none;
+	position: relative;
+	margin: 0 auto;
+	max-width: 890px;
+	display: flex;
+	flex-wrap: wrap
+}
+
+.timeline li:before {
+	content: " ";
+	position: absolute;
+	background: #081b24;
+	background: var(--winter-w2);
+	width: 8px;
+	height: 100%;
+	left: calc(50% - 4px);
+	top: 14px
+}
+
+.timeline li:after {
+	content: "o";
+	position: absolute;
+	left: calc(50% - 14px);
+	top: 0;
+	background: #fff;
+	border: 8px solid #081b24;
+	border: 8px solid var(--winter-w2);
+	border-radius: 50%;
+	height: 28px;
+	width: 28px;
+	text-indent: -9999px
+}
+
+.timeline ul li:last-child:before {
+	height: 0
+}
+
+.time-responsive {
+	display: none
+}
+
+time {
+	display: flex;
+	position: absolute;
+	font-size: 20px;
+	font-weight: 400
+}
+
+.timeline ul li:nth-child(odd) time {
+	right: calc(50% + 45px)
+}
+
+.timeline ul li:nth-child(2n) time {
+	left: calc(50% + 45px);
+	margin-left: auto
+}
+
+.timeline-item {
+	position: relative;
+	-webkit-transform: translateY(calc(-50% + 13px));
+	transform: translateY(calc(-50% + 13px));
+	padding: 24px;
+	background: #081b24;
+	background: var(--winter-w2);
+	color: #fff;
+	transition: all .3s ease-in-out;
+	cursor: default;
+	border-radius: 2px;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: .4px
+}
+
+.timeline-item:before {
+	content: "";
+	position: absolute;
+	top: calc(50% - 18px);
+	width: 0;
+	height: 0;
+	border-style: solid
+}
+
+.timeline ul li:nth-child(odd) .timeline-item {
+	right: calc(-50% - 45px)
+}
+
+.timeline ul li:nth-child(odd) .timeline-item:before {
+	left: -36px;
+	border: 18px solid transparent;
+	border-right: 18px solid var(--winter-w2)
+}
+
+.timeline ul li:nth-child(2n) .timeline-item {
+	left: calc(-50% - 45px);
+	margin-left: auto
+}
+
+.timeline ul li:nth-child(2n) .timeline-item:before {
+	right: -36px;
+	border: 18px solid transparent;
+	border-left: 18px solid var(--winter-w2)
+}
+
+@media screen and (max-width:900px) {
+	.timeline ul li div {
+		width: 250px
+	}
+	.timeline ul li:nth-child(2n) div {
+		left: -289px
+	}
+}
+
+@media screen and (max-width:600px) {
+	time {
+		display: none
+	}
+	.time-responsive {
+		font-weight: 200;
+		display: block
+	}
+	.timeline ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 5px
+	}
+	.timeline ul li {
+		margin-left: 20px
+	}
+	.timeline ul li:after,
+	.timeline ul li:before {
+		left: unset
+	}
+	.timeline ul li div {
+		width: calc(100vw - 50px);
+		text-align: center;
+		padding-left: 40px;
+		padding-right: 40px
+	}
+	.timeline ul li:nth-child(2n) .timeline-item,
+	.timeline ul li:nth-child(odd) .timeline-item {
+		left: unset;
+		right: unset;
+		margin-left: unset
+	}
+	.timeline ul li:nth-child(2n) .timeline-item:before,
+	.timeline ul li:nth-child(odd) .timeline-item:before {
+		left: -36px;
+		border: 18px solid transparent;
+		border-right: 18px solid var(--winter-w2)
+	}
+	.timeline li:before {
+		display: none
+	}
+}
+
+@media only screen and (max-width:535px) {
+	.card-text {
+		font-size: .9rem
+	}
+	.timeline-head h3 {
+		font-size: 1.9rem
+	}
+}
+
+@media only screen and (max-width:420px) {
+	.card__card__title {
+		font-size: 30px
+	}
+	.card-title {
+		font-size: 20px
+	}
+	.card-text {
+		font-size: 15px
+	}
+
+	.timeline-head {
+		margin-top: 0
+	}
+	.timeline-head h3 {
+		text-decoration: none
+	}
+}
+
+:root {
+	--winter-w1: #eceef1;
+	--winter-w2: #081b24;
+	--winter-w3: #8a9c9b;
+	--winter-w4: #acc4d4;
+	--winter-w5: #d3e4e3;
+	--winter-link: #7ad9fe;
+	--winter-hover: rgba(7, 7, 7, 0.2);
+	--logo-l1: #f7931e;
+	--logo-l2: #0094ff;
+	--logo-l3: #8dc500
+}
