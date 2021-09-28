@@ -4,7 +4,7 @@ body {
 }
 
 a {
-  color: #e63e9b;
+  color: #ff4655;
   text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e63e9b;
+  background: #ff4655;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -92,7 +92,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #1969ef;
+  background: black;
   color: #fff;
 }
 
@@ -623,7 +623,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #000000;
-  color: #1969ef;
+  color: #ff4655;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -829,7 +829,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #000000;
-  color: #1969ef;
+  color: #ff4655;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -855,8 +855,8 @@ section {
   }
 
 .cta-btn:hover {
-    background: #e63e9b;
-    border-color: #e63e9b;
+    background: #ff4655;
+    border-color: #ff4655;
     color: white;
   }
 
