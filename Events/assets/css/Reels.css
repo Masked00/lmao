@@ -823,13 +823,13 @@ section {
 }
 
 .about .content h2 {
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 1px;
   font-weight: 700;
   padding: 8px 20px;
   margin: 0;
-  background: #000000;
-  color: #1969ef;
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  color: #ffffff;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -839,6 +839,10 @@ section {
 /*--------------------------------------------------------------
   # Register
   --------------------------------------------------------------*/
+
+#register {
+  background: #151515; 
+}
 
   .cta-btn {
     font-family: "Raleway", sans-serif;
