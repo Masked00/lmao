@@ -1,4 +1,6 @@
-@charset "UTF-8"; /*!
+@charset "UTF-8";
+@import "bootstrap/scss/custom";
+ /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
  * Copyright 2011-2021 Twitter, Inc.
@@ -9422,4 +9424,4 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
-/*# sourceMappingURL=bootstrap.min.css.map */
+/* sourceMappingURL=bootstrap.min.css.map */
