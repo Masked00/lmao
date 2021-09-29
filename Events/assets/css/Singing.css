@@ -842,6 +842,8 @@ section {
   #register{
     background: url("../img/micdrop_reg_bg.gif") no-repeat;
     background-position: center center;
+    background-size: cover;
+  
   }
   .cta-btn {
     font-family: "Raleway", sans-serif;
