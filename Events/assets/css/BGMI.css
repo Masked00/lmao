@@ -78,7 +78,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e63e9b;
+  background: #1fee18;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -92,7 +92,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #1969ef;
+  background: black;
   color: #fff;
 }
 
@@ -835,7 +835,12 @@ section {
 /*--------------------------------------------------------------
   # Register
   --------------------------------------------------------------*/
-
+  #register {
+    background: url("../img/defaul.gif") no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
 .cta-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -851,8 +856,8 @@ section {
 }
 
 .cta-btn:hover {
-  background: #e63e9b;
-  border-color: #e63e9b;
+  background: #1fee18;
+  border-color: #1fee18;
   color: white;
 }
 
@@ -1648,7 +1653,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #e63e9b;
+  background: #1fee18;
   color: #fff;
   text-decoration: none;
 }
