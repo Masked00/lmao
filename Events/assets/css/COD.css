@@ -78,7 +78,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e63e9b;
+  background: #e2df2b;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -835,6 +835,11 @@ section {
 /*--------------------------------------------------------------
   # Register
   --------------------------------------------------------------*/
+#register {
+  background: url("../img/defaul.gif") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
 .cta-btn {
   font-family: "Raleway", sans-serif;
@@ -851,8 +856,8 @@ section {
 }
 
 .cta-btn:hover {
-  background: #e63e9b;
-  border-color: #e63e9b;
+  background: #e2df2b;
+  border-color: #e2df2b;
   color: white;
 }
 
@@ -1372,7 +1377,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #e63e9b;
+  color: #e2df2b;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #b3d1fa;
@@ -1574,7 +1579,7 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 span {
-  color: #e63e9b;
+  color: #e2df2b;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1648,7 +1653,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #e63e9b;
+  background: #e2df2b;
   color: #fff;
   text-decoration: none;
 }
