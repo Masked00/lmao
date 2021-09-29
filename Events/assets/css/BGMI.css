@@ -454,8 +454,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("https://images-ext-1.discordapp.net/external/hfhY6605Yx4qpweSI6B1TH3Ulyrmjm9XX7PLMULxXSQ/%3Fquality%3D90%26auto%3Dwebp/https/static01.nyt.com/images/2020/08/12/business/12Techfix-illo/12Techfix-illo-jumbo.gif")
-    top left;
+  background: url("../img/bgmi_bg.jpg") top left;
   background-size: cover;
   position: relative;
 }
