@@ -78,7 +78,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #e63e9b;
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -1643,7 +1643,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1969ef;
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
