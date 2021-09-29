@@ -456,7 +456,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/micdrop_background.gif")
+  background: url("../img/micdrop.gif")
     top left;
   background-size: cover;
   position: relative;
