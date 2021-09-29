@@ -455,7 +455,9 @@ h6 {
   width: 100%;
   height: 100vh;
   background: url("../img/pensuade.gif") top left;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   position: relative;
 }
 
@@ -836,6 +838,12 @@ section {
   # Register
   --------------------------------------------------------------*/
 
+#register {
+  background: url("../img/pensuade_reg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 .cta-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
@@ -847,7 +855,8 @@ section {
   transition: 0.5s;
   margin-top: 10px;
   border: 2px solid #fff;
-  color: #fff;
+  color: #000;
+  background: white;
 }
 
 .cta-btn:hover {
