@@ -457,6 +457,7 @@ h6 {
   background: url("https://media.discordapp.net/attachments/888004868034416640/891229015594139648/No_Copyright_Vertical_Glowing_Neon_Lights_Stage_Loop_Animate.gif")
     top center;
   background-size: cover;
+  background-position: center;
   position: relative;
 }
 
