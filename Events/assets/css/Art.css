@@ -474,6 +474,8 @@ h6 {
 
 #hero .container {
   position: relative;
+  padding-top: 74px;
+  text-align: center;
 }
 
 #hero h1 {
@@ -549,7 +551,7 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
+    height: auto;
   }
   #header .logo a {
     font-size: large;
