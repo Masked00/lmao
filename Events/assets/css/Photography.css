@@ -456,8 +456,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/pic_bg.jpg");
-    top left;
+  background: url("../img/pic_bg.jpg")
+  top left;
   background-size: cover;
   position: relative;
 }
@@ -840,7 +840,7 @@ section {
   # Register
   --------------------------------------------------------------*/
   #register {
-      background: url(../img/pensuade_reg.jpg) no-repeat;
+      background: url("https://wallpapers.com/images/high/vintage-camera-photography-v1kvppafaym9le9e.jpg") no-repeat;
       background-position: center center;
       background-size: cover;
   }
