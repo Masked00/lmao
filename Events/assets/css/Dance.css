@@ -1,6 +1,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: snow;
+  background: url("https://c.tenor.com/RqH54jCv970AAAAC/lines.gif");
+  background-size: contain;
 }
 
 a {
@@ -623,7 +625,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #000000;
-  color: #1969ef;
+  color: #d5bf23;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -829,7 +831,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #000000;
-  color: #1969ef;
+  color: #d5bf23;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
