@@ -456,18 +456,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-<<<<<<< Updated upstream
-  background: url("https://images-ext-1.discordapp.net/external/hfhY6605Yx4qpweSI6B1TH3Ulyrmjm9XX7PLMULxXSQ/%3Fquality%3D90%26auto%3Dwebp/https/static01.nyt.com/images/2020/08/12/business/12Techfix-illo/12Techfix-illo-jumbo.gif")
-    top center;
-=======
-<<<<<<< HEAD
   background: url("../img/pic_bg.jpg");
     top left;
-=======
-  background: url("https://images-ext-1.discordapp.net/external/hfhY6605Yx4qpweSI6B1TH3Ulyrmjm9XX7PLMULxXSQ/%3Fquality%3D90%26auto%3Dwebp/https/static01.nyt.com/images/2020/08/12/business/12Techfix-illo/12Techfix-illo-jumbo.gif")
-    top center;
->>>>>>> 1567b1f6b01484fedd2f1d5cfc066f347661ef4e
->>>>>>> Stashed changes
   background-size: cover;
   position: relative;
 }
@@ -850,7 +840,7 @@ section {
   # Register
   --------------------------------------------------------------*/
   #register {
-      background: url("https://wallpapers.com/images/high/vintage-camera-photography-v1kvppafaym9le9e.jpg") no-repeat;
+      background: url(https://wallpapers.com/images/high/vintage-camera-photography-v1kvppafaym9le9e.jpg) no-repeat;
       background-position: center center;
       background-size: cover;
   }
