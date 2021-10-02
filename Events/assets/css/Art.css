@@ -205,7 +205,7 @@ h6 {
   .navbar {
     padding: 0;
   }
-  
+
   .navbar ul {
     margin: 0;
     padding: 0;
@@ -213,16 +213,16 @@ h6 {
     list-style: none;
     align-items: center;
   }
-  
+
   .navbar li {
     position: relative;
   }
-  
+
   .navbar > ul > li {
     white-space: nowrap;
     padding: 10px 0 10px 28px;
   }
-  
+
   .navbar a,
   .navbar a:focus {
     display: flex;
@@ -236,14 +236,14 @@ h6 {
     transition: 0.3s;
     position: relative;
   }
-  
+
   .navbar a i,
   .navbar a:focus i {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
   }
-  
+
   .navbar > ul > li > a:before {
     content: "";
     position: absolute;
@@ -256,21 +256,21 @@ h6 {
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
   }
-  
+
   .navbar a:hover:before,
   .navbar li:hover > a:before,
   .navbar .active:before {
     visibility: visible;
     width: 100%;
   }
-  
+
   .navbar a:hover,
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover > a {
     color: #e63e9b;
   }
-  
+
   .navbar .dropdown ul {
     display: block;
     position: absolute;
@@ -285,45 +285,45 @@ h6 {
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
   }
-  
+
   .navbar .dropdown ul li {
     min-width: 200px;
   }
-  
+
   .navbar .dropdown ul a {
     padding: 10px 20px;
     font-weight: 400;
   }
-  
+
   .navbar .dropdown ul a i {
     font-size: 12px;
   }
-  
+
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover > a {
     color: #e63e9b;
   }
-  
+
   .navbar .dropdown:hover > ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
   }
-  
+
   .navbar .dropdown .dropdown ul {
     top: 0;
     left: calc(100% - 30px);
     visibility: hidden;
   }
-  
+
   .navbar .dropdown .dropdown:hover > ul {
     opacity: 1;
     top: 0;
     left: 100%;
     visibility: visible;
   }
-  
+
   @media (max-width: 1366px) {
     .navbar .dropdown .dropdown ul {
       left: -90%;
@@ -332,7 +332,7 @@ h6 {
       left: -100%;
     }
   }
-  
+
   /**
     * Mobile Navigation
     */
@@ -344,11 +344,11 @@ h6 {
     line-height: 0;
     transition: 0.5s;
   }
-  
+
   .mobile-nav-toggle.bi-x {
     color: #fff;
   }
-  
+
   @media (max-width: 991px) {
     .mobile-nav-toggle {
       display: block;
@@ -357,7 +357,7 @@ h6 {
       display: none;
     }
   }
-  
+
   .navbar-mobile {
     position: fixed;
     overflow: hidden;
@@ -369,13 +369,13 @@ h6 {
     transition: 0.3s;
     z-index: 999;
   }
-  
+
   .navbar-mobile .mobile-nav-toggle {
     position: absolute;
     top: 15px;
     right: 15px;
   }
-  
+
   .navbar-mobile ul {
     display: block;
     position: absolute;
@@ -388,33 +388,33 @@ h6 {
     overflow-y: auto;
     transition: 0.3s;
   }
-  
+
   .navbar-mobile a {
     padding: 10px 20px;
     font-size: 15px;
     color: #222222;
   }
-  
+
   .navbar-mobile > ul > li {
     padding: 0;
   }
-  
+
   .navbar-mobile a:hover:before,
   .navbar-mobile li:hover > a:before,
   .navbar-mobile .active:before {
     visibility: hidden;
   }
-  
+
   .navbar-mobile a:hover,
   .navbar-mobile .active,
   .navbar-mobile li:hover > a {
     color: #e63e9b;
   }
-  
+
   .navbar-mobile .getstarted {
     margin: 15px;
   }
-  
+
   .navbar-mobile .dropdown ul {
     position: static;
     display: none;
@@ -426,29 +426,29 @@ h6 {
     background: #fff;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   }
-  
+
   .navbar-mobile .dropdown ul li {
     min-width: 200px;
   }
-  
+
   .navbar-mobile .dropdown ul a {
     padding: 10px 20px;
   }
-  
+
   .navbar-mobile .dropdown ul a i {
     font-size: 12px;
   }
-  
+
   .navbar-mobile .dropdown ul a:hover,
   .navbar-mobile .dropdown ul .active:hover,
   .navbar-mobile .dropdown ul li:hover > a {
     color: #e63e9b;
   }
-  
+
   .navbar-mobile .dropdown > .dropdown-active {
     display: block;
   }
-  
+
 
 /*--------------------------------------------------------------
   # Hero Section
@@ -456,7 +456,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("https://images-ext-1.discordapp.net/external/hfhY6605Yx4qpweSI6B1TH3Ulyrmjm9XX7PLMULxXSQ/%3Fquality%3D90%26auto%3Dwebp/https/static01.nyt.com/images/2020/08/12/business/12Techfix-illo/12Techfix-illo-jumbo.gif")
+  background: url("")
     top center;
   background-size: cover;
   position: relative;
@@ -855,7 +855,7 @@ section {
     border: 2px solid #fff;
     color: #fff;
   }
-  
+
 .cta-btn:hover {
     background: #e63e9b;
     border-color: #e63e9b;
