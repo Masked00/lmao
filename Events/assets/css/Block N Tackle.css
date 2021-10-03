@@ -456,7 +456,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("")
+  background: url("https://media1.giphy.com/media/RimwLrgcWjMBU9WAtj/giphy.gif?cid=ecf05e47w994cz0puzyn749vbbjnug5z3ulyc1d9bwcw2mbm&rid=giphy.gif&ct=g")
     top center;
   background-size: cover;
   position: relative;
@@ -839,6 +839,14 @@ section {
 /*--------------------------------------------------------------
   # Register
   --------------------------------------------------------------*/
+
+
+  #register {
+    background: url("../img/blockntackle_bg.gif") no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
 
   .cta-btn {
     font-family: "Raleway", sans-serif;
